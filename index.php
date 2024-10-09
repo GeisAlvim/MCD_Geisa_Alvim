@@ -34,7 +34,7 @@ if($sql->rowCount()>0){
                 <td><?php echo $dados['preco'] ?></td>
                 <td>
                     <a href="editar.php?id<?php $dados['id']; ?>">[EDITAR]</a>
-                    <a href="excluir.php?id<?php $dados['id']; ?>">[EXCLUIR]</a>
+                    <a href="deletar.php?id<?php $dados['id']; ?>">[EXCLUIR]</a>
                 </td>
             </tr>
         <?php endforeach; ?>    
